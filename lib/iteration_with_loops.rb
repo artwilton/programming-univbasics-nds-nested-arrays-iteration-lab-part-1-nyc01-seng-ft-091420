@@ -1,8 +1,8 @@
 def find_even_values(src)
   row_index = 0
-  while row_index < src.count do
+  while row_index < src.length do
     element_index = 0
-    while element_index < src.length[row_index].count do
+    while element_index < src.length[row_index] do
       if src[row_index][element_index].even?
         p src[row_index][element_index]
       end
