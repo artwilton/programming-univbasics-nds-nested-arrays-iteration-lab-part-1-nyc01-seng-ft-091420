@@ -3,7 +3,7 @@ def find_even_values(src)
   while count < src.count do
     element_index = 0
     while element_index < src.length[row_index].count do
-
+      p src[row_index][element_index]
       element_index += 1
     end
     row_index += 1
